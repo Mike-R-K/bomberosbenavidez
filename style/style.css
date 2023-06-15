@@ -175,7 +175,7 @@ h3 {
 
 /*FORMATO CUARTELES---------------------------------------------------------------------------------------*/
 .main_cuarteles img {
-    width: 40%;
+    width: 100%;
 }
 
 .main_cuarteles h1,
@@ -185,8 +185,8 @@ h2 {
 
 .mapa_central,
 .mapa_destacamento {
-    width: 40%
-} */
+    width: 100%
+}
 
 /*FORMATO CUERPO ACTIVO-----------------------------------------------------------------------------------*/
 
