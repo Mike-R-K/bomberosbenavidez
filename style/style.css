@@ -108,6 +108,7 @@ footer ul {
 }
 
 footer li {
+    display: flex;
     width: 100%;
 }
 
@@ -249,11 +250,12 @@ h3 {
 }
 
 .main_parqueautomotor img {
-    width: 35%
+    width: 100%
 }
 
 .main_parqueautomotor p {
     font-weight: bold;
+    width: 100%;
 }
 
 /*FORMATO CONTACTO-----------------------------------------------------------------------------------------*/
