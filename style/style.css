@@ -114,7 +114,7 @@ footer li {
 
 
 
-/*FORMATO INDEX*/
+/*FORMATO INDEX--------------------------------------------------------------------------------------*/
 
 .main h1 {
     font-size: 5rem;
@@ -154,8 +154,7 @@ h3 {
 }
 
 .cuerpo_index img {
-    margin-right: 5px;
-    width: 500px
+    width: 100%
 }
 
 .cuerpo_index h2,
@@ -174,7 +173,7 @@ h3 {
 }
 
 
-/*FORMATO CUARTELES*/
+/*FORMATO CUARTELES---------------------------------------------------------------------------------------*/
 .main_cuarteles img {
     width: 40%;
 }
@@ -187,9 +186,9 @@ h2 {
 .mapa_central,
 .mapa_destacamento {
     width: 40%
-}
+} */
 
-/*FORMATO CUERPO ACTIVO*/
+/*FORMATO CUERPO ACTIVO-----------------------------------------------------------------------------------*/
 
 .main_cuerpoactivo h1 {
     background-color: #C9DBB2;
@@ -236,11 +235,7 @@ h3 {
     width: 30%;
 }
 
-
-
-
-
-/*FORMATO PARQUE AUTOMOTOR*/
+/*FORMATO PARQUE AUTOMOTOR---------------------------------------------------------------------------------*/
 .main_parqueautomotor h1 {
     background-color: #C9DBB2;
 }
@@ -261,7 +256,7 @@ h3 {
     font-weight: bold;
 }
 
-/*FORMATO CONTACTO*/
+/*FORMATO CONTACTO-----------------------------------------------------------------------------------------*/
 .main_contacto img {
     width: 2%
 }
