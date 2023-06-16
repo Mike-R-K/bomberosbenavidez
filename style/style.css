@@ -74,18 +74,18 @@ header p {
 header img {
     width: 10%;
     margin: 5px;
-} 
+}
 
-.menu{
+.menu {
     background-color: white;
 }
 
-.link{
+.link {
     color: black;
     font-family: 'ubuntu';
 }
 
-.escudo_nav{
+.escudo_nav {
     width: fit-content;
 }
 
@@ -100,8 +100,8 @@ header img {
 } */
 
 footer {
+    margin-top: 10px;
     align-items: center;
-    background-color: #ff0000;
 }
 
 footer a {
@@ -123,6 +123,19 @@ footer li {
     justify-content: center;
     width: 100%;
 }
+
+.footer {
+    background-color: #ff0000;
+}
+
+.banner_footer p {
+    font-size: 1.1rem;
+}
+.banner_footer a {
+    color: black;
+    font-weight: bold;
+}
+
 
 
 /*FORMATO INDEX--------------------------------------------------------------------------------------*/
@@ -270,7 +283,7 @@ h3 {
 
 /*FORMATO CONTACTO-----------------------------------------------------------------------------------------*/
 .main_contacto img {
-    width: 2%
+    width: 5%
 }
 
 .main_contacto ul {
@@ -284,4 +297,13 @@ h3 {
 
 .main_contacto h2 {
     font-size: 3rem;
+}
+
+.main_contacto h3 {
+    font-size: 2.5rem;
+    text-align: start;
+}
+
+.main_contacto p {
+    text-align: start;
 }
