@@ -231,7 +231,7 @@ h2 {
 h3 {
     color: black;
     width: 100%;
-    background-color: #ecf7ce;
+    background-color: #ffffff;
 }
 
 .main_cuerpoactivo p {
@@ -242,6 +242,14 @@ h3 {
     width: 40%
 }
 
+.suboficiales h3{
+    color: white;
+    background: rgba(255, 0, 0, 0.548);
+}
+
+.bomberos h3 {
+    background-color: rgb(255, 255, 152);
+}
 /* .cuerpoactivo_container {
     display: flex;
     flex-direction: column;
@@ -302,6 +310,7 @@ h3 {
 }
 
 .main_contacto h1 {
+    background-color: white;
     font-size: 4rem;
     width: 100%;
 }
@@ -311,6 +320,7 @@ h3 {
 }
 
 .main_contacto h3 {
+    background-color: white;
     font-size: 2.5rem;
     text-align: start;
 }
