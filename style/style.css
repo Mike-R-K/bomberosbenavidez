@@ -71,10 +71,15 @@ header p {
     margin-right: 5px;
 }
 
-header img {
+/* header img {
     width: 10%;
     margin: 5px;
-}
+} */
+
+.navbar_logo img {
+    max-width: 100px;
+    height: auto;
+  }
 
 .menu {
     background-color: white;
@@ -84,20 +89,6 @@ header img {
     color: black;
     font-family: 'ubuntu';
 }
-
-.escudo_nav {
-    width: fit-content;
-}
-
-/* header ul {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-} */
-
-/* .header {
-    background-color: rgb(255, 255, 255);
-} */
 
 footer {
     margin-top: 10px;
@@ -141,6 +132,7 @@ footer li {
 /*FORMATO INDEX--------------------------------------------------------------------------------------*/
 
 .main h1 {
+    color: rgb(0, 43, 160);
     font-size: 5rem;
     text-align: center;
 }
@@ -149,16 +141,23 @@ footer li {
     font-size: 3rem;
     display: flex;
     text-align: center;
-    background-color: #C9DBB2;
+    background-color: hsla(246, 100%, 50%, 0.096);
+    border-top: solid 2px #ff0000;
+    border-bottom: solid 2px red;
 }
 
 .main li {
     width: 100%
 }
 
-.main h2,
-h3 {
-    background-color: #C9DBB2;
+.main h2 {
+    color: white;
+    background-color: #ff4b4b;
+}
+
+.main h3{
+    color: white;
+    background-color: #ff4b4b;
 }
 
 
@@ -175,6 +174,10 @@ h3 {
     display: flex;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+.caratula_index a {
+    color: #ff0000;
 }
 
 .cuerpo_index img {
@@ -204,7 +207,12 @@ h3 {
 
 .main_cuarteles h1,
 h2 {
-    background-color: #C9DBB2;
+    color: white;
+    background-color: #ff4b4b;
+}
+
+.main_cuarteles h2 {
+    margin-top: 5px;
 }
 
 .mapa_central,
@@ -215,12 +223,13 @@ h2 {
 /*FORMATO CUERPO ACTIVO-----------------------------------------------------------------------------------*/
 
 .main_cuerpoactivo h1 {
-    background-color: #C9DBB2;
-
+    color: white;
+    background-color: #ff4b4b;
 }
 
 .main_cuerpoactivo h2,
 h3 {
+    color: black;
     width: 100%;
     background-color: #ecf7ce;
 }
@@ -233,39 +242,41 @@ h3 {
     width: 40%
 }
 
-
-.cuerpoactivo_container {
+/* .cuerpoactivo_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.jefatura,
+/* .jefatura,
 .oficiales,
 .suboficiales,
-.bomberos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+.suboficiales2,
+.bomberos,
+.bomberos2, {
+    width: 100%
+} */
 
-.jefatura div,
+/* .jefatura div,
 .oficiales div,
 .suboficiales div,
-.bomberos div {
+.suboficiales2 div,
+.bomberos div,
+.bomberos2 div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-}
+}  */
 
 /*FORMATO PARQUE AUTOMOTOR---------------------------------------------------------------------------------*/
 .main_parqueautomotor h1 {
-    background-color: #C9DBB2;
+    color: white;
+    background-color: #ff4b4b;
 }
 
 .main_parqueautomotor h2 {
-    background-color: #F6FFDE;
+    color: white;
+    background-color: #ff4b4b;
 }
 
 .main_parqueautomotor p {
