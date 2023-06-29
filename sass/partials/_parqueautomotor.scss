@@ -1,6 +1,6 @@
 .main_parqueautomotor {
     h1 {
-        @include titulos(white, $fondoh1, 5px)
+        @include titulos(white, $fondoh1, 5px) 
     }
 
     h2 {
@@ -17,3 +17,4 @@
         width: 100%
     }
 }
+

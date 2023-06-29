@@ -31,15 +31,15 @@ ul {
 }
 
 h1 {
-    text-decoration: solid;
-    text-align: center;
-    font-size: 5rem;
+    text-decoration: solid !important;
+    text-align: center !important;
+    font-size: 5rem !important;
 
 }
 
 h2 {
-    font-size: 3.5rem;
-    text-align: center;
+    font-size: 3.5rem !important;
+    text-align: center !important;
 }
 
 h3 {
@@ -87,8 +87,9 @@ footer {
     align-items: center;
 
     a {
-        color: white;
-        font-weight: lighter;
+        color: white !important;
+        font-weight: lighter !important;
+        text-decoration: none !important;
     }
 
     .footer {
@@ -114,8 +115,8 @@ footer {
         }
 
         a {
-            color: black;
-            font-weight: bold;
+            color: black !important;
+            font-weight: bold !important;
         }
 
     }
