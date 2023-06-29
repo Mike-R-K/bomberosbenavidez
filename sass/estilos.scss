@@ -1,7 +1,131 @@
+// FORMATOS GENERALES //
+
+@font-face {
+    font-family: 'roboto-general';
+    src: url('../style/font-family/roboto-regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+body {
+    font-family: 'ubuntu'
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-decoration: solid;
+    text-align: center;
+    font-size: 5rem;
+
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+form {
+    font-size: 1.4rem;
+}
+
+header {
+    font-size: 1.6rem;
+    align-items: start;
+    border-bottom: 1px solid red;
+
+    p {
+        text-align: end;
+        margin-right: 5px;
+    }
+
+}
+
+.menu {
+    background-color: white;
+
+    .navbar_logo img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .link {
+        color: black;
+        font-family: 'ubuntu';
+    }
+}
+
+footer {
+    margin-top: 10px;
+    align-items: center;
+
+    a {
+        color: white;
+        font-weight: lighter;
+    }
+
+    .footer {
+        background-color: #ff0000;
+
+        ul {
+            text-align: center;
+            font-size: 1.6rem;
+        }
+
+        li {
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+    .banner_footer {
+
+        p {
+            font-size: 1.3rem;
+            text-decoration: underline;
+
+        }
+
+        a {
+            color: black;
+            font-weight: bold;
+        }
+
+    }
+}
+
+
 @import "partials/generales.scss";
 @import "partials/index.scss";
 @import "partials/cuarteles.scss";
 @import "partials/cuerpoactivo.scss";
 @import "partials/parqueautomotor.scss";
 @import "partials/contacto.scss";
-

@@ -32,6 +32,20 @@
     .caratula_index {
         display: flex;
         flex-direction: column;
+
+        .emergencias {
+            div {
+                display: inline-block;
+                width: auto;
+            }
+
+            h2 {
+                color: rgb(0, 43, 160);
+                font-size: 5rem;
+                text-align: center;
+                background: none;
+            }
+        }
     }
 
     .cuerpo_index {
