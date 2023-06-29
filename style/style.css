@@ -1,5 +1,3 @@
-/* SIEMPRE USAR CLASES, NO ID*/
-
 /*FORMATOS GENERALES*/
 @font-face {
     font-family: 'roboto-general';
@@ -110,7 +108,7 @@ footer li {
 }
 
 .banner_footer p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .banner_footer a {

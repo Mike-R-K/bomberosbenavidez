@@ -65,7 +65,7 @@ header p {
   background-color: white;
 }
 .menu .navbar_logo img {
-  max-width: 100px;
+  max-width: 70px;
   height: auto;
 }
 .menu .link {
@@ -94,8 +94,7 @@ footer .footer li {
   width: 100%;
 }
 footer .banner_footer p {
-  font-size: 1.3rem;
-  text-decoration: underline;
+  font-size: 1.2rem;
 }
 footer .banner_footer a {
   color: black;
@@ -129,6 +128,12 @@ footer .banner_footer a {
 .main .caratula_index {
   display: flex;
   flex-direction: column;
+}
+.main .caratula_index .emergencias h2 {
+  color: rgb(0, 43, 160);
+  font-size: 5rem;
+  text-align: center;
+  background: none;
 }
 .main .cuerpo_index img {
   width: 100%;
