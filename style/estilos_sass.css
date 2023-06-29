@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "roboto-general";
+  src: url("../style/font-family/roboto-regular.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration-style: none;
+  text-decoration-line: none;
+  font-weight: bold;
+  color: black;
+}
+
+body {
+  font-family: "ubuntu";
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-decoration: solid;
+  text-align: center;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+form {
+  font-size: 1.4rem;
+}
+
+header {
+  font-size: 1.6rem;
+  align-items: start;
+  border-bottom: 1px solid red;
+}
+header p {
+  text-align: end;
+  margin-right: 5px;
+}
+
+.menu {
+  background-color: white;
+}
+.menu .navbar_logo img {
+  max-width: 100px;
+  height: auto;
+}
+.menu .link {
+  color: black;
+  font-family: "ubuntu";
+}
+
+footer {
+  margin-top: 10px;
+  align-items: center;
+}
+footer a {
+  color: white;
+  font-weight: lighter;
+}
+footer .footer {
+  background-color: #ff0000;
+}
+footer .footer ul {
+  text-align: center;
+  font-size: 1.6rem;
+}
+footer .footer li {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+footer .banner_footer p {
+  font-size: 1.1rem;
+}
+footer .banner_footer a {
+  color: black;
+  font-weight: bold;
+}
+
+.main h1 {
+  color: rgb(0, 43, 160);
+  font-size: 5rem;
+  text-align: center;
+}
+.main ul {
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+  background-color: hsla(246, 100%, 50%, 0.096);
+  border-top: solid 2px #ff0000;
+  border-bottom: solid 2px red;
+}
+.main li {
+  width: 100%;
+}
+.main h2 {
+  color: white;
+  background-color: #ff4b4b;
+}
+.main h3 {
+  color: white;
+  background-color: #ff4b4b;
+}
+.main .caratula_index {
+  display: flex;
+  flex-direction: column;
+}
+.main .cuerpo_index img {
+  width: 100%;
+}
+.main .cuerpo_index h2,
+.main .cuerpo_index h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.main .cuerpo_index .historia_container div,
+.main .cuerpo_index .pedro_container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main_cuarteles img {
+  width: 100%;
+}
+.main_cuarteles h1,
+.main_cuarteles h2 {
+  color: white;
+  background-color: #ff4b4b;
+}
+.main_cuarteles h2 {
+  margin-top: 5px;
+}
+.main_cuarteles .mapa_central,
+.main_cuarteles .mapa_destacamento {
+  width: 100%;
+}
+
+.main_cuerpoactivo h1 {
+  color: white;
+  background-color: #ff4b4b;
+}
+.main_cuerpoactivo h2,
+.main_cuerpoactivo h3 {
+  color: black;
+  width: 100%;
+  background-color: #ffffff;
+}
+.main_cuerpoactivo p {
+  font-weight: bold;
+}
+.main_cuerpoactivo img {
+  width: 40%;
+}
+.main_cuerpoactivo .suboficiales h3 {
+  color: white;
+  background: rgba(255, 0, 0, 0.548);
+}
+.main_cuerpoactivo .bomberos h3 {
+  background-color: rgb(255, 255, 152);
+}
+
+.main_parqueautomotor h1 {
+  color: white;
+  background-color: #ff4b4b;
+}
+.main_parqueautomotor h2 {
+  color: white;
+  background-color: #ff4b4b;
+}
+.main_parqueautomotor p {
+  font-weight: bold;
+  width: 100%;
+}
+.main_parqueautomotor img {
+  width: 100%;
+}
+
+.main_contacto img {
+  width: 5%;
+}
+.main_contacto ul {
+  font-size: 2rem;
+}
+.main_contacto h1 {
+  background-color: white;
+  font-size: 4rem;
+  width: 100%;
+}
+.main_contacto h2 {
+  font-size: 3rem;
+}
+.main_contacto h3 {
+  background-color: white;
+  font-size: 2.5rem;
+  text-align: start;
+}
+.main_contacto p {
+  text-align: start;
+}
+
+/*# sourceMappingURL=estilos_sass.css.map */
