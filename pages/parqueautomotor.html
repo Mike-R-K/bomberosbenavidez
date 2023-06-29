@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Carusel -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 
 </head>
 
@@ -61,38 +64,70 @@
     </header>
     <main class="main_parqueautomotor">
         <section>
-            
-                <h1>Nuestas Unidades</h1>
-                <!-- A futuro será una galería por móvil con la opción de abrirla desde la foto original -->
-                <div class="container-fluid">
-                    <div>
-                        <h2>Autobombas</h2>
+
+            <h1>Nuestas Unidades</h1>
+            <!-- A futuro será una galería por móvil-->
+            <div class="container-fluid">
+                <div>
+                    <h2>Autobombas</h2>
+                </div>
+                <div class="row d-flex justify-content-around">
+                    <div class="col-12 col-md-4">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../imagenes/movil55carusel1.JPG" alt="Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../imagenes/movil55carusel4.JPG" alt="Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../imagenes/movil55carusel5.JPG" alt="Image 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../imagenes/movil55carusel6.JPG" alt="Image 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../imagenes/movil55carusel7.JPG" alt="Image 5">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <p>Móvil 55 Autobomba Incendio y Rescate</p>
+                        </div>
                     </div>
-                    <div class="row d-flex justify-content-around">
-                        <div class="col-12 col-md-4">
-                            <div><img src="../imagenes/movil55.JPG" alt="Móvil 55 Autobomba Mercedes Benz">
-                                <p>Móvil 55 Autobomba Incendio y Rescate</p>
-                            </div>
+                    <div class="col-12 col-md-4">
+                        <div><img src="../imagenes/movil47.jpg" alt="Móvil 47 Autbomba Mercedes Benz">
+                            <p>Móvil 47 Autobomba Incendio y Rescate</p>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <div><img src="../imagenes/movil47.jpg" alt="Móvil 47 Autbomba Mercedes Benz">
-                                <p>Móvil 47 Autobomba Incendio y Rescate</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="../imagenes/movil32.jpeg" alt="Móvil 32 Autoboma International">
-                            <p>Móvil 32 Autobomba Forestal</p>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="../imagenes/movil53.jpg" alt="Móvil 53 Autoboma Beck">
-                            <p>Móvil 32 Autobomba Incendio y Rescate</p>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="../imagenes/movil1.JPG" alt="Móvil 1 Autoboma Chevrolet">
-                            <p>Móvil 32 Autobomba Incendio Urbano</p>
-                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../imagenes/movil32.jpeg" alt="Móvil 32 Autoboma International">
+                        <p>Móvil 32 Autobomba Forestal</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../imagenes/movil53.jpg" alt="Móvil 53 Autoboma Beck">
+                        <p>Móvil 32 Autobomba Incendio y Rescate</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../imagenes/movil1.JPG" alt="Móvil 1 Autoboma Chevrolet">
+                        <p>Móvil 32 Autobomba Incendio Urbano</p>
                     </div>
                 </div>
+            </div>
             <div class="container-fluid">
                 <div>
                     <h2>Cisternas</h2>
@@ -153,10 +188,9 @@
         </div>
         <div class="banner_footer">
             <p>
-                Sociedad de Bomberos Voluntarios de Benavídez - Teléfonos de Emergencias: Cuartel Central: <a
-                    href="tel:03372481010">(03327) 481010</a>
-                <a href="https://goo.gl/maps/P8U4gn5FgMGxk1BaA" target="_blank">La Rioja 1901, Benavídez</a> -
-                Destacamento Dique Luján-Villa La Ñata: <a href="tel:03484443777">(0348) 4443777</a>
+                Sociedad de Bomberos Voluntarios de Benavídez - Teléfonos de Emergencias: <a
+                href="tel:03372481010">(03327) 481010 </a>- Cuartel Central 
+                <a href="https://goo.gl/maps/P8U4gn5FgMGxk1BaA" target="_blank">La Rioja 1901, Benavídez</a> / <a href="tel:03484443777">(0348) 4443777</a> Destacamento Dique Luján-Villa La Ñata - 
                 <a href="https://goo.gl/maps/xfPGbv7n7HaNYGjBA" target="_blank">12 de Octubre & Alberdi, Dique Luján</a>
             </p>
         </div>
@@ -165,6 +199,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <!-- Carusel -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#imageModal').on('show.bs.modal', function (event) {
+                var imgSrc = $(event.relatedTarget).attr('src');
+                $('.expanded-image').attr('src', imgSrc).addClass('active');
+            });
+
+            $('#imageModal').on('hide.bs.modal', function () {
+                $('.expanded-image').removeClass('active');
+            });
+        });
+    </script>
 
 </body>
 
