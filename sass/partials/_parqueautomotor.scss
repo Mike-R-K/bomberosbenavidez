@@ -1,12 +1,11 @@
 .main_parqueautomotor {
     h1 {
-        color: white;
-        background-color: #ff4b4b;
+        @include titulos(white, $fondoh1, 5px)
     }
 
     h2 {
         color: white;
-        background-color: #ff4b4b;
+        background-color: $fondoh2
     }
 
     p {

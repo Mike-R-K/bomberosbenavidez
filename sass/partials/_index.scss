@@ -21,12 +21,12 @@
 
     h2 {
         color: white;
-        background-color: #ff4b4b;
+        background-color: $fondoh2
     }
 
     h3 {
         color: white;
-        background-color: #ff4b4b;
+        background-color: $fondoh3
     }
 
     .caratula_index {
@@ -39,6 +39,11 @@
                 font-size: 5rem;
                 text-align: center;
                 background: none;
+            }
+            a {
+                color: rgb(0, 43, 160);
+                text-decoration: none;
+                font-weight: lighter;
             }
         }
     }

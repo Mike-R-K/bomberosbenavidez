@@ -119,11 +119,11 @@ footer .banner_footer a {
 }
 .main h2 {
   color: white;
-  background-color: #ff4b4b;
+  background-color: #f70f0f;
 }
 .main h3 {
   color: white;
-  background-color: #ff4b4b;
+  background-color: #f32525;
 }
 .main .caratula_index {
   display: flex;
@@ -134,6 +134,11 @@ footer .banner_footer a {
   font-size: 5rem;
   text-align: center;
   background: none;
+}
+.main .caratula_index .emergencias a {
+  color: rgb(0, 43, 160);
+  text-decoration: none;
+  font-weight: lighter;
 }
 .main .cuerpo_index img {
   width: 100%;
@@ -157,9 +162,7 @@ footer .banner_footer a {
 .main_cuarteles h1,
 .main_cuarteles h2 {
   color: white;
-  background-color: #ff4b4b;
-}
-.main_cuarteles h2 {
+  background-color: #f50000;
   margin-top: 5px;
 }
 .main_cuarteles .mapa_central,
@@ -169,7 +172,8 @@ footer .banner_footer a {
 
 .main_cuerpoactivo h1 {
   color: white;
-  background-color: #ff4b4b;
+  background-color: #f50000;
+  margin-top: 5px;
 }
 .main_cuerpoactivo h2,
 .main_cuerpoactivo h3 {
@@ -185,19 +189,20 @@ footer .banner_footer a {
 }
 .main_cuerpoactivo .suboficiales h3 {
   color: white;
-  background: rgba(255, 0, 0, 0.548);
+  background: rgb(255, 0, 0);
 }
 .main_cuerpoactivo .bomberos h3 {
-  background-color: rgb(255, 255, 152);
+  background-color: rgb(255, 230, 0);
 }
 
 .main_parqueautomotor h1 {
   color: white;
-  background-color: #ff4b4b;
+  background-color: #f50000;
+  margin-top: 5px;
 }
 .main_parqueautomotor h2 {
   color: white;
-  background-color: #ff4b4b;
+  background-color: #f70f0f;
 }
 .main_parqueautomotor p {
   font-weight: bold;
@@ -219,7 +224,9 @@ footer .banner_footer a {
   width: 100%;
 }
 .main_contacto h2 {
+  color: white;
   font-size: 3rem;
+  background-color: #f70f0f;
 }
 .main_contacto h3 {
   background-color: white;

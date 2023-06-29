@@ -1,0 +1,9 @@
+$fondoh1: #f50000;
+$fondoh2: #f70f0f;
+$fondoh3: #f32525;
+
+@mixin titulos ($color, $fondo, $margin){
+    color: $color;
+    background-color: $fondo;
+    margin-top: $margin;
+}

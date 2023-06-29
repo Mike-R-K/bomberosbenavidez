@@ -1,7 +1,6 @@
 .main_cuerpoactivo {
     h1 {
-        color: white;
-        background-color: #ff4b4b;
+        @include titulos(white, $fondoh1, 5px)
     }
 
     h2,
@@ -22,13 +21,13 @@
     .suboficiales {
         h3 {
             color: white;
-            background: rgba(255, 0, 0, 0.548);
+            background: rgb(255, 0, 0);
         }
     }
 
     .bomberos {
         h3 {
-            background-color: rgb(255, 255, 152);
+            background-color: rgb(255, 230, 0);
         }
     }
 

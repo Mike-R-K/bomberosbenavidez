@@ -5,13 +5,9 @@
 
     h1,
     h2 {
-        color: white;
-        background-color: #ff4b4b;
+        @include titulos(white, $fondoh1, 5px)
     }
 
-    h2 {
-        margin-top: 5px;
-    }
 
     .mapa_central,
     .mapa_destacamento {
