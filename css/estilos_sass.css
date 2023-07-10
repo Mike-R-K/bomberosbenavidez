@@ -102,6 +102,25 @@ footer .banner_footer a {
   font-weight: bold !important;
 }
 
+@media (max-width: 768px) {
+  .responsive-text h1 {
+    font-size: 2rem;
+  }
+  .responsive-text h2 {
+    font-size: 1.5rem;
+  }
+  .responsive-text h3 {
+    font-size: 1.2rem;
+  }
+  .responsive-text p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 480px) {
+  .responsive-text {
+    font-size: 12px;
+  }
+}
 .main h1 {
   color: rgb(0, 43, 160);
   font-size: 5rem;

@@ -2,8 +2,20 @@ $fondoh1: #f50000;
 $fondoh2: #f70f0f;
 $fondoh3: #f32525;
 
-@mixin titulos ($color, $fondo, $margin){
+@mixin titulos ($color, $fondo, $margin) {
     color: $color;
     background-color: $fondo;
     margin-top: $margin;
+}
+
+@media (max-width: 768px) {
+    li {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    li {
+        font-size: 1rem;
+    }
 }
